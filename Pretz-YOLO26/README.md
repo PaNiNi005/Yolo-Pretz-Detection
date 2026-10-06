@@ -133,7 +133,7 @@ pip install -r requirements.txt
 ---
 
 
-## Run Dataset Conversion
+## Run Dataset Conversion (ข้ามขั้นตอนนี้ไปได้เลย)
 
 จากนั้นไปที่ cmd แล้วรันโค้ด python 01-export_dataset.py ถ้าขึ้นแบบนี้คือได้แล้ว และจะได้ โฟลเดอร์ dataset มาแล้ว   
 
@@ -141,12 +141,10 @@ pip install -r requirements.txt
 python 01-export_dataset.py
 ```
 
-## (ข้ามขั้นตอนนี้ไปได้เลย)
 
 ---
 
-# 🧠 Train YOLO26
-## (ข้ามขั้นตอนนี้ไปได้เลย)
+# 🧠 Train YOLO26 (ข้ามขั้นตอนนี้ไปได้เลย)
 โมเดลที่ใช้เริ่มต้นคือ
 
 ```text
