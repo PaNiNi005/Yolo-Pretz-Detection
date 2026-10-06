@@ -1,0 +1,12 @@
+# กำหนดโฟเดอร์ที่เก็บรูปภาพ
+train: ./dataset/images/train
+val: ./dataset/images/val
+# จำนวนคลาสทั้งหมด
+nc: 3
+
+# ชื่อคลาส (เรียงลำดับให้ตรงกับเลข 0, 1, 2... ใน LabelImg)
+names:
+  0 : "Corn"
+  1 : "Larb"
+  2 : "Tomyum"
+ 

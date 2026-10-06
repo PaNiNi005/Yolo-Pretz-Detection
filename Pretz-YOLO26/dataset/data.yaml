@@ -1,0 +1,6 @@
+path: C:\AIML\AI_YOLO\Pretz-YOLO26\dataset
+train: images/train
+val: images/val
+
+nc: 3
+names: ['Corn', 'Larb', 'Tomyum']

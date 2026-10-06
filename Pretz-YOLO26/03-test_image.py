@@ -1,0 +1,15 @@
+from ultralytics import YOLO
+
+# โหลดโมเดลที่ผ่านการฝึก (Trained Model)
+model = YOLO("runs/detect/train-8/weights/best.pt")
+
+# นำโมเดลไปทดสอบกับรูปภาพ
+results = model.predict(
+    "dataset/images/val/IMG_4910.jpg",    # ชื่อไฟล์รูปภาพที่ต้องการทดสอบ เช่น "coffee.jpg"
+    conf=0.5,       # กำหนดค่า Confidence ขั้นต่ำที่ 50%
+    agnostic_nms=True,
+    save=True       # บันทึกภาพผลลัพธ์ที่ตรวจจับได้
+)
+
+# แสดงผลลัพธ์การตรวจจับของรูปภาพแรก
+results[0].show()
